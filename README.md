@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+#Student Wallet — Smart Financial Tracking System for Students
 
-## Project info
+Student Wallet is a full-stack finance management application designed to help students track daily expenses, record lending/borrowing activities, and maintain better spending discipline. The application provides real-time alerts, spending insights, and automated email notifications to parents when overspending occurs, promoting transparency and responsible financial habits.
 
-**URL**: https://lovable.dev/projects/95cdd8f8-370d-457c-821b-1ebb31225009
+##🚀Features
 
-## How can I edit this code?
+**Expense Management
 
-There are several ways of editing your application.
+- Add and categorize daily expenses
+- Track spending patterns over time
+- View history with timestamps for transparency
 
-**Use Lovable**
+**Lending / Borrowing Tracker
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/95cdd8f8-370d-457c-821b-1ebb31225009) and start prompting.
+- Maintain logs of money borrowed/lent to peers
+- Track returned and pending amounts
 
-Changes made via Lovable will be committed automatically to this repo.
+**Smart Alerts & Budget Control
 
-**Use your preferred IDE**
+- Set monthly/weekly/daily spending limits
+- Get alerts when thresholds are crossed
+- Sends email notifications to parents automatically when overspending continues
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Dashboard & Visual Insights
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Graph-based representation of spending trends
+- Quick summaries of remaining budget, top categories, etc.
 
-Follow these steps:
+**Security & User Experience
 
+- Modular component-based UI
+- Clean and intuitive interface built for students
+
+**Tech Stack
+
+Layer	                         Technology
+Frontend	                     React, HTML, CSS, JavaScript
+Backend	                       Node.js 
+Database	                     MongoDB
+Email Notifications	           Gmail SMTP
+Charts & Data Visualization	   Recharts
+
+**Core Workflow (Methodology)
+
+1️⃣ Students add daily expenses in the app
+2️⃣ System stores and categorizes them in MongoDB
+3️⃣ Dashboard visualizes spending pattern
+4️⃣ When spending crosses threshold → alert pushed
+5️⃣ If overspending continues → automatic email sent to parents
+
+📌 Installation & Setup
+
+1️⃣ Clone the repository
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
+git clone https://github.com/sadhikasahana/studentwallet.git
+cd studentwallet
+```
+2️⃣ Install the necessary dependencies
+```sh
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```
+3️⃣ Run the project
+```sh
 npm run dev
 ```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/95cdd8f8-370d-457c-821b-1ebb31225009) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
