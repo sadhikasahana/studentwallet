@@ -2,6 +2,8 @@
 
 Student Wallet is a full-stack finance management application designed to help students track daily expenses, record lending/borrowing activities, and maintain better spending discipline. The application provides real-time alerts, spending insights, and automated email notifications to parents when overspending occurs, promoting transparency and responsible financial habits.
 
+**URL-** https://student-wallet.netlify.app/
+
 ## 🚀Features
 
 **Expense Management**
